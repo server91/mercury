@@ -1,0 +1,143 @@
+@media(max-width:1200px) {
+    .header-container h1 {
+        font-size: 50px;
+    }
+
+    .header-container h2 {
+        font-size: 40px;
+    }
+
+    .text {
+        padding-top: 0;
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .product {
+        margin: 10px;
+    }
+
+    .secondary-product {
+        padding-top: 30px;
+        padding-left: 15px;
+        padding-bottom: 30px;
+        padding-right: 15px;
+    }
+
+    .left-bar,
+    .right-bar {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:992px) {
+    .header {
+        height: 400px;
+    }
+
+    .header-container {
+        height: 400px;
+    }
+
+    .main-product {
+        justify-content: center;
+    }
+
+    .text {
+        margin-left: 60px;
+    }
+
+    .left-bar,
+    .right-bar {
+        font-size: 14px;
+    }
+
+    .footer-nav {
+        margin-left: 0;
+    }
+
+    .footer-container {
+        white-space: nowrap;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .nav-link {
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:768px) {
+    .main-container {
+        margin-top: 30px;
+    }
+
+    .bottom-product {
+        flex-wrap: wrap;
+    }
+
+    .footer-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:576px) {
+    .product {
+        flex-direction: column;
+    }
+    .header-container{
+        text-align: center;
+    }
+    .header-container h1 {
+        font-size: 40px;
+    }
+    .header-container h2 {
+        font-size: 30px;
+    }
+    .bottom-product {
+      margin-top: 30px;
+      justify-content: center;
+      text-align: center;
+    }
+    .secondary-product{
+        width: 200px;
+    }
+    .product {
+        align-items: center;
+    }
+
+    .text {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .card {
+        width: 150px;
+        margin: 10px;
+    }
+    .card img{
+        width:100%;
+    }
+
+    .distributions-container {
+        flex-direction: column;
+    }
+
+    .left-bar,
+    .right-bar {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .footer-nav {
+        overflow: scroll;
+        padding-bottom: 20px;
+    }
+}
